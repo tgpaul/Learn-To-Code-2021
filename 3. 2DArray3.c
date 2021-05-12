@@ -43,7 +43,7 @@ void main(){
         }
     }
 
-    //Element was never found (implies 'flag' was never incremented. Sooooooo...... 'flag' != 0)
+    //Element was never found (implies 'flag' was never incremented. Sooooooo...... 'flag' = 0)
     if(flag==0){
         printf("Element not found\n");
     }
