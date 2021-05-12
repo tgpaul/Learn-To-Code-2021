@@ -1,5 +1,5 @@
 /*
-    WACP to read a 2D array. Then, search for a particular user given element. If found, display its position.
+    Write a C Program to read a 2D array. Then, search for a particular given element. If found, display each ouccurence of that element with its position(s).
 	    https://teachics.org/programming-examples/data-structures-using-c-programs/search-an-element-in-the-2-dimensional-array/
 	    https://www.youtube.com/watch?v=vOsUzpZz2xU
 */
@@ -37,7 +37,7 @@ void main(){
     for(i=0; i<row; i++){
         for(j=0;j<col;j++){
             if(arr[i][j] == item){
-                printf("Item found at [%d, %d] \n", i, j);
+                printf("Element found at (%d,%d) \n", i, j);
                 flag++;
             }
         }
@@ -45,6 +45,6 @@ void main(){
 
     //Element was never found (implies 'flag' was never incremented. Sooooooo...... 'flag' != 0)
     if(flag==0){
-        printf("Item not found\n");
+        printf("Element not found\n");
     }
 }
