@@ -21,16 +21,11 @@
 	
 	https://www.youtube.com/watch?v=vOsUzpZz2xU
 -------------------------------------------------------
-4. WACP to display the sum and product of two 2D arrays. Take values for the 2D arrays from the user.
-
-	Sum:-		
-			https://followtutorials.com/2011/08/sum-of-two-matrices-using-two-dimensional-array-in-c.html
-					https://www.youtube.com/watch?v=kS474_HHaL4
-
+4. WACP to display the product of two 2D arrays. Take values for the 2D arrays from the user.
 	
-	Product:-	
-			https://followtutorials.com/2012/03/numerical-methods-multiplication-of-two-matrices-using-two-dimensional-array-in-c.html
-					https://www.youtube.com/watch?v=jzdQqoG1tZs
+	https://followtutorials.com/2012/03/numerical-methods-multiplication-of-two-matrices-using-two-dimensional-array-in-c.html
+	
+	https://www.youtube.com/watch?v=jzdQqoG1tZs
 -------------------------------------------------------
 5. WACP to implement a Static Queue. Create the menu and functions for "Push", "Pop", "Peek" and "Display".
  (Try to use 'swicth-case' method)
