@@ -14,50 +14,46 @@ void main(){
     int row,col,i,j;
     
     //Reading the array order
-    printf("Enter the number of rows and columns : \n");
     scanf("%d%d",&row,&col);   
     
     if(row!=col){
-        printf("This is not a square matrix!\n");
+        printf("Error\n");
     }
     else{
         //Reading values for 2D array
-        printf("Enter the values for the 2-Dimensional array :\n");
         for(i=0; i<row; i++) {
             for(j=0;j<col;j++) {
                 scanf("%d", &arr[i][j]);
             }
-            printf("\n");
         }
 
+        /*
         //Printing the 2D array
-        printf("The 2-Dimensional array elements are :\n");
         for(i=0; i<row; i++) {
             for(j=0;j<col;j++) {
-                printf("%3d", arr[i][j]);
+                printf("%d ", arr[i][j]);
             }
             printf("\n");
         }
-
+        */
+       
         //Print Main Diagonals
-        printf("\nThe Main/Primary diagonal is : ");
         for(i=0; i<row; i++) {
             for(j=0;j<col;j++) {
                 if(i==j){
-                    printf("%3d", arr[i][j]);
+                    printf("%d ", arr[i][j]);
                 }
             }
         }
+        printf("\n");
 
         //Print Secondary Diagonals
-        printf("\nThe main diagonal is : ");
         for(i=0; i<row; i++) {
             for(j=0;j<col;j++) {
                 if ((i + j) == (row - 1)){
-                    printf("%3d", arr[i][j]);
+                    printf("%d ", arr[i][j]);
                 }
             }
         }
     }
-    printf("\n\nProgram Finished!\n");
 }
