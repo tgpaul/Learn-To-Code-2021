@@ -7,7 +7,7 @@
 #include<stdio.h>
 #define MAX_SIZE 20
 
-void main(){
+int main(){
     //Declaring three 2D Arrays
     int arr1[MAX_SIZE][MAX_SIZE],arr2[MAX_SIZE][MAX_SIZE],sum[MAX_SIZE][MAX_SIZE],prod[MAX_SIZE][MAX_SIZE];          
     int row1,col1,row2,col2,i,j,k;
@@ -64,4 +64,5 @@ void main(){
     else{
         printf("Error\n");              //These arrays can not be multiplied!
     }
+	return 0;
 }
