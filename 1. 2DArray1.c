@@ -7,7 +7,7 @@
 #include<stdio.h>
 #define MAX_SIZE 20
 
-void main(){
+int main(){
     //Declaring the 2D Array
     int arr[MAX_SIZE][MAX_SIZE];          
     int row,col,i,j;
@@ -29,4 +29,5 @@ void main(){
         }
         printf("\n");
     }
+	return 0;
 }
