@@ -5,8 +5,7 @@
 */
 
 #include<stdio.h>
-
-const int MAX_SIZE = 10;
+#define MAX_SIZE 20
 
 void main(){
     //Declaring three 2D Arrays
