@@ -17,7 +17,7 @@ int queue[MAX_SIZE];
 int rear = -1;
 int front = -1;
 
-void main(){
+int main(){
     int choice;
     while(1){
         printf("\n\n------------ Menu ------------\n");
@@ -87,4 +87,5 @@ void display(){
             printf("%d ", queue[i]);
         printf("<-rear\n");
     }
+	return 0;
 }
